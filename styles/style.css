@@ -21,6 +21,33 @@ form {
     float :left;
     width : 50%;
 }*/
+main{
+    display: block;
+}
+
+a{
+    display: inline-block;
+
+}
+
+#for-frame{
+    display: none;
+    position:relative;
+    width:100%;
+    height:500px;
+    overflow: hidden;
+}
+
+iframe{
+    position: absolute;
+    top: -100px;
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
 main section {
     width: 100%;
 }
